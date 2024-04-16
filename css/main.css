@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Courgette&display=swap');
+
+
+:root {
+  --bg: #eee;
+  --secondClrBg: #000;
+  --cl: #56bcd5;
+  --fontClr: #000;
+  --fontClr2: #ff9f0d;
+  --bgHero:#1d2d42;
+}
+
+main{
+  background-color: var(--bgHero);
+  height:100vh;
+}
+
+div.main-im{
+  display: flex;
+  position: absolute;
+  top:100px;
+  left:2rem;
+}
+
+img.main-back-img{
+  display: block;
+  width: 500px;
+  top: 100px;
+  right: 50px;
+}
+
+
+h1{
+  align-content: center;
+  display: block;
+  top: 200px;
+  font-family: "Courgette", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 4rem;
+  color: var(--bg);
+  left:2rem;
+}
+
+@media (max-width:1160px){
+  div.main-im{
+    align-items: center;
+    display: block;
+    overflow:hidden;
+    text-align: center;
+    justify-content: center;
+    position:static;
+    padding-top: 200px;
+  }
+
+  h1{
+    display: inline;
+    text-wrap: nowrap;
+    width:90dvw;
+  }
+
+  img.main-back-img{
+    display: inline;
+  }
+
+}
+
+@media (max-width:676px){
+  div.main-im{
+    align-items: center;
+    display: block;
+    overflow:hidden;
+    text-align: center;
+    justify-content: center;
+  }
+
+  h1{
+    display: inline;
+    text-wrap: nowrap;
+    width:90dvw;
+    font-size: 2rem;
+  }
+
+  img.main-back-img{
+    display: inline;
+    width:350px;
+  }
+
+}

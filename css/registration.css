@@ -1,0 +1,18 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
+  transition: .4s ease-in-out;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+body{
+  background-color: #2b2a33;
+  color: #eee;
+}
+/* 
+table.form-table{
+} */

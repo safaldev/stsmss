@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head data section sc -->
+<head>
+  <!-- css files sc -->
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- character set format sc -->
+  <meta charset="UTF-8">
+
+  <!-- seo optimized key words sc -->
+  <meta content="Shree tribhuwan Shanti" name="keywords" />
+  <meta content="Tribhuwan Shanti Website" name="description" />
+
+  <!-- initial device width sc -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- top broser conrtent sc -->
+  <title>Tribhuwan Shanti</title>
+
+  <!-- favicons sc -->
+  <link rel="shortcut icon" href="img/main-logo.png" type="image/x-icon">
+
+  <!-- importing fonts from awesome fonts library sc  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<!-- whiole body section sc -->
+<body>
+
+  <!-- header part of page sc -->
+  <header>
+
+    <!-- logo for page sc -->
+    <div class="logo">
+      <img src="img/main-logo.png" alt="logo" class="logo-img">
+   </div>
+
+    <!-- navigation bar for page sc -->
+    <nav class="navbar">
+
+      <!-- more elements for navigation panel sc -->
+      <div class="nav-all-elements">
+        <a class="nav-el" href="#home"    style="--i: 1;" >home</a>
+         <a class="nav-el" href="#product" style="--i:2 ;" >about</a>
+         <a class="nav-el" href="#devs"  style="--i:3 ;"  >classes</a>
+         <a class="nav-el" href="#contact" style="--i:5 ;"   >teachers</a>
+         <a class="nav-el" href="#contact" style="--i:6 ;"   >gallery</a>
+         <a class="nav-el" href="#contact" style="--i:7 ;"   >blogs</a>
+         <a class="nav-el" href="#contact" style="--i:8 ;"   >contact</a>
+      </div>
+
+      <!-- special nav panel element sc -->
+      <div class="nav-special-elements">
+        <a class="nav-d" href="html/registrationxi.html" style="--i:4 ;"   >registration XI</a>
+      </div>
+    </nav>
+    <i class="fa-solid fa-bars"></i>
+  </header>
+
+  <!-- start of main part of web page sc -->
+
+  <main class="main">
+    
+    <div class="main-im">
+    <h1>New <span> Approach  <br> to National</span> Education </h1>
+
+    <img class="main-back-img" src="img/kids.png" alt="images">
+    </div>
+  </main>
+
+
+  <!-- java script -->
+  <script>
+    let navbar = document.querySelector(".navbar");
+    let icon = document.querySelector(".fa-bars");
+ 
+    icon.onclick = () =>{
+       navbar.classList.toggle("active");
+       console.log('hi');
+    }
+    </script>
+</body>
+</html>
